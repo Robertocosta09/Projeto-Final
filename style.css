@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.center {
+    display: flex;
+}
+
+.paragrafo_1 {
+    color: aliceblue;
+}
+
+.paragrafo_1_texto {
+    width: 400px;
+    height: 250px;
+}
+
+.paragrafo_2 {
+    color: aliceblue;
+}
+
+.paragrafo_2_texto {
+    width: 400px;
+    height: 250px;
+    justify-content: right;
+}
