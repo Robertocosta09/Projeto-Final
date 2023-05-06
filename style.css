@@ -4,6 +4,15 @@
     background-color: black;
 }
 
+.menu {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    top: 57px;
+
+}
+
 .center {
     display: flex;
 }
@@ -12,17 +21,62 @@
     color: aliceblue;
 }
 
+.paragrafo_1_titulo {
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    left: 95px;
+    top: 168px;
+}
+
 .paragrafo_1_texto {
-    width: 400px;
-    height: 250px;
+    font-size: 24px;
+    width: 695px;
+    height: 237px;
+    position: absolute;
+    left: 95px;
+    top: 237px;
+
 }
 
 .paragrafo_2 {
     color: aliceblue;
 }
 
+.paragrafo_2_titulo {
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 632px;
+    left: 684px;
+}
+
 .paragrafo_2_texto {
-    width: 400px;
-    height: 250px;
-    justify-content: right;
+    font-size: 24px;
+    width: 695px;
+    height: 328px;
+    position: absolute;
+    top: 715px;
+    left: 690px;
+}
+
+.logo_starwars {
+    width: 190px;
+    height: 117px;
+}
+
+.logo_mando {
+    width: 462px;
+    height: 381px;
+    position: absolute;
+    left: 95px;
+    top: 614px;
+}
+
+.Logo_mando_2 {
+    width: 462px;
+    height: 399px;
+    position: absolute;
+    left: 916px;
+    top: 166px;
 }
