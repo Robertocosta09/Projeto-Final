@@ -81,7 +81,7 @@ body {
 
 #titulo {
     text-transform: uppercase;
-
+    text-align: justify
 }
 
 .container__texto {
