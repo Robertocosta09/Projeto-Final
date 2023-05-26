@@ -10,23 +10,31 @@
 </head>
 
 <body>
-    <header>
-        <div class="center">
-            <div class="logo"> <img class="logo_starwars" src="Assets/Logo Starwars.png"></div>
-            <ul class="menu">
-                <a href="#">SOBRE</a>
-                <a href="#">MANDALORIAN</a>
-                <a href="#">JEDI</a>
-                <a href="#">SITH</a>
-                <a href="#">REBELDE</a>
-            </ul><!--menu-->
-        </div><!--center-->
-    </header>
+    <div id="grid">
+        <header id="cabecalho">
+            <a id="imagem" href="#"> <img src="Assets/Logo Starwars.png" alt="logo Star Wars"></a><!--logo-->
 
-    <section class="paragrafo_1">
-        <main>
-            <div>
-                <h1 class="paragrafo_1_titulo">QUEM SÃO OS MANDALORIANOS</h1>
+            <div id="links__cabecalho">
+                <a class="links__header" href="#">Sobre</a>
+                <a class="links__header" href="#">Mandalorian</a>
+                <a class="links__header" href="#">Jedi</a>
+                <a class="links__header" href="#">Sith</a>
+                <a class="links__header" href="#">Rebelde</a>
+            </div>
+        </header>
+
+        <nav id="navegacao__right">
+            <a class="links__header" href="#">Sobre</a>
+            <a class="links__header" href="#">Mandalorian</a>
+            <a class="links__header" href="#">Jedi</a>
+            <a class="links__header" href="#">Sith</a>
+            <a class="links__header" href="#">Rebelde</a>
+
+        </nav>
+
+        <section id="section1">
+            <div class="container__texto">
+                <h1 id="titulo">QUEM SÃO OS MANDALORIANOS?!</h1>
                 <p class="paragrafo_1_texto">Os mandalorianos são um povo guerreiro da galáxia de Star Wars, conhecido
                     por
                     suas habilidades em batalha e sua cultura de honra. Eles são reconhecidos por seus icônicos
@@ -34,28 +42,51 @@
                     armaduras de Beskar, um metal extremamente resistente, que são altamente personalizáveis e
                     simbolizam
                     sua identidade cultural.</p>
-                <img class="logo_mando" src="Assets/Logo mandalorian.png">
             </div>
             <div>
-                <h1 class="paragrafo_2_titulo">QUAL SUA HISTÓRIA</h1>
-                <p class="paragrafo_2_texto">A história dos mandalorianos é complexa e variada. Em geral, os
-                    mandalorianos
-                    são originários do planeta Mandalore e foram originalmente concebidos como uma raça de guerreiros e
-                    caçadores de recompensas que se espalharam pela galáxia.
-                    Ao longo dos anos, os mandalorianos tiveram diferentes líderes e facções políticas, incluindo o
-                    governo
-                    neutro de Mandalore, liderado por Duquesa Satine Kryze, e o Império Mandaloriano, liderado por
-                    Mand'alor, o Conquistador.</p>
-                <img class="Logo_mando_2" src="Assets/Mandaloriano.png">
+                <img id="imagem2" src="Assets/Logo mandalorian.png">
             </div>
-        </main>
+
+        </section>
+        <section class="section2">
+            <div class="container__texto_02">
+                <h2 class="paragrafo__02__titulo">QUAL SUA HISTÓRIA</h1>
+                    <p class="paragrafo_2_texto">A história dos mandalorianos é complexa e variada. Em geral, os
+                        mandalorianos
+                        são originários do planeta Mandalore e foram originalmente concebidos como uma raça de
+                        guerreiros e
+                        caçadores de recompensas que se espalharam pela galáxia.
+                        Ao longo dos anos, os mandalorianos tiveram diferentes líderes e facções políticas, incluindo o
+                        governo
+                        neutro de Mandalore, liderado por Duquesa Satine Kryze, e o Império Mandaloriano, liderado por
+                        Mand'alor, o Conquistador.</p>
+                    <div>
+
+                        <img class="paragrafo__index__imagem" src="Assets/Mandaloriano.png">
+                    </div>
+            </div>
+        </section>
+        <aside id="navegacao__left">
+            <a class="links__header" href="#">Sobre</a>
+            <a class="links__header" href="#">Mandalorian</a>
+            <a class="links__header" href="#">Jedi</a>
+            <a class="links__header" href="#">Sith</a>
+            <a class="links__header" href="#">Rebelde</a>
+        </aside>
+        <footer id="rodape">
+
+            <p id="texto__rodape">More From Star Wars:</p>
+            <a href="https://www.facebook.com/StarWars.br/?brand_redir=169299103121699"><img src="./Assets/facebook.png"
+                    alt="facebook"></a>
+            <a href="https://www.instagram.com/starwars/"><img src="./Assets/instagram.png" alt="instagram"></a>
+            <a href="https://twitter.com/starwars"><img src="./Assets/twitter.png" alt="twitter"></a>
+            <a href="https://www.youtube.com/user/starwars"><img src="./Assets/youtube.png" alt="youtube"></a>
+            <a href="https://www.starwarskids.com/"><img src="./Assets/kids.png" alt=""></a>
+        </footer>
 
 
-
-
-
-    </section>
-
+        </section>
+    </div>
 </body>
 
 </html>
