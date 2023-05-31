@@ -73,6 +73,12 @@ body {
 
 }
 
+.paragrafo_1_texto {
+    display: flex;
+    justify-content: center;
+    text-align: justify
+}
+
 #section1 {
     grid-area: section1;
     display: flex;
@@ -139,7 +145,7 @@ body {
     align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     #grid {
         grid-template-columns: repeat (2, 1fr);
         grid-template-areas:
@@ -162,7 +168,7 @@ body {
     #texto__rodape,
     #links__cabecalho,
     #imagem {
-        width: 50%;
+        width: 70%;
         flex-wrap: wrap;
         display: flex;
         justify-content: left
