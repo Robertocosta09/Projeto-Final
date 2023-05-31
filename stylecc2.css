@@ -78,9 +78,9 @@ body {
     display: flex;
     color: aliceblue;
     align-items: flex-start;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0PX;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-between;
 }
 
 #titulo {
@@ -92,7 +92,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding-right: 50px;
     text-align: justify;
 }
 
@@ -111,8 +110,6 @@ body {
     justify-content: space-between;
 
 }
-
-
 
 #imagem2 {
     display: flex;
