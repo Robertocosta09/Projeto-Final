@@ -143,12 +143,12 @@ body {
     #grid {
         grid-template-columns: repeat (2, 1fr);
         grid-template-areas:
-            "cabecalho cabecalho"
+            "cabecalho"
             "section1 section1"
             "section1 section1"
             "section2 section2"
             "section2 section2"
-            "footer footer"
+            "footer"
 
     }
 
@@ -159,7 +159,9 @@ body {
     .container__texto,
     .container__texto_02,
     #titulo,
-    #texto__rodape {
+    #texto__rodape,
+    #links__cabecalho,
+    #imagem {
         width: 50%;
         flex-wrap: wrap;
         display: flex;
