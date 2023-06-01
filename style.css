@@ -86,6 +86,7 @@ body {
     align-items: flex-start;
     margin-left: 30px;
     margin-right: 30px;
+    justify-content: space-between;
 
 }
 
@@ -135,7 +136,7 @@ footer {
 
     height: auto;
     width: 100vw;
-    padding-left: 40px;
+    padding-left: 20px;
     color: #fff;
 }
 
