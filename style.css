@@ -131,13 +131,45 @@ body {
     text-align: justify;
 }
 
+footer {
 
-#rodape {
+    height: auto;
+    width: 100vw;
+    padding-left: 40px;
+    color: #fff;
+}
+
+.footer-content {
     grid-area: rodape;
-    margin-top: 50px;
-    color: aliceblue;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials li a {
+    text-decoration: none;
+    color: #fff;
 }
 
 #texto__rodape {
@@ -150,12 +182,12 @@ body {
     #grid {
         grid-template-columns: repeat (2, 1fr);
         grid-template-areas:
-            "cabecalho"
+            "cabecalho cabecalho"
             "section1 section1"
             "section1 section1"
             "section2 section2"
             "section2 section2"
-            "footer"
+            "rodape rodape"
 
     }
 
@@ -166,10 +198,9 @@ body {
     .container__texto,
     .container__texto_02,
     #titulo,
-    #texto__rodape,
-    #links__cabecalho,
-    #imagem {
-        width: 70%;
+    .footer-content,
+    #texto__rodape {
+        width: 50%;
         flex-wrap: wrap;
         display: flex;
         justify-content: left
