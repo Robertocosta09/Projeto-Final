@@ -55,10 +55,11 @@ body {
 
 }
 
-#section1 {
+.section1 {
     grid-area: section1;
     display: flex;
     color: aliceblue;
+    align-items: flex-start;
     justify-content: space-between;
 
 }
