@@ -137,12 +137,12 @@ body {
         display: none;
     }
 
-    #container__section1 {
+    .container__section1 {
 
         flex-direction: column;
     }
 
-    #container__section2 {
+    .container__section2 {
 
         flex-direction: column;
     }
@@ -160,7 +160,6 @@ body {
         display: flex;
         flex-direction: column;
     }
-
 
     .paragrafo__index__imagem {
         width: 80%;
