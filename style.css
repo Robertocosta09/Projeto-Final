@@ -59,7 +59,8 @@ body {
     grid-area: section1;
     display: flex;
     color: aliceblue;
-    align-items: flex-start;
+    margin-left: 30px;
+    margin-right: 30px;
     justify-content: space-between;
 
 }
