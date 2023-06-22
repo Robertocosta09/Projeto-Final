@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+.cabecalho {
+    grid-area: cabecalho;
+    display: flex;
+    margin: 2 em 0;
+    position: relative;
+    align-items: center;
+}
+
+.links__cabecalho {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    margin-left: 3vh;
+}
+
+.links__header {
+    text-decoration: none;
+    color: white;
+    padding: 0.8em;
+}
+
+.links__header:hover {
+    color: #FFE81F;
+    color: #F6DA33;
+}
+
+
+.container__cabecalho-mobile {
+    display: none;
+}
+
+@media screen and (min-width: 822px) and (max-width: 1600px) {
+
+    .links__header {
+        padding: 0.5em;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    .cabecalho {
+        margin: 1 em 0;
+    }
+}
+
+.container__cabecalho-mobile {
+    display: block;
+    display: flex;
+    align-items: center;
+    width: 90%;
+
+}
+
+.cabeçalho__menu-hamburguer {
+    background-image: url("Assets/menu.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+
+}
+
+.container__botao:checked~.container__label>.cabeçalho__menu-hamburguer {
+    background-image: url("Assets/menu.png");
+}
+
+.container__label {
+    .links__header {
+        display: none;
+    }
+}
+
+.container__imagem-mobile {
+    width: 80%;
+    margin-left: 1em;
+}
+
+.lista-menu {
+    display: none;
+
+    position: absolute;
+    z-index: 9999;
+    top: 100%;
+    width: 40vw;
+
+}
+
+.lista-menu__item {
+    background-color: aliceblue;
+    padding: .4em 0;
+    text-align: center;
+    list-style: none;
+    background-image: url("Assets/papel-de-parede-pixel-parede.jpg");
+    background-position: center;
+}
+
+.lista-menu__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFE81F;
+    color: #F6DA33;
+    font-weight: 800;
+
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.container__botao {
+    display: none;
+}
+
+
+.imagem__cabecalho {
+    display: none;
+}
+
+.container__imagem {
+    width: 100%;
+    padding: 1.3em;
+
+}

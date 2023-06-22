@@ -10,16 +10,48 @@
 </head>
 
 <body>
-    <div id="grid">
-        <header id="cabecalho">
-            <a id="imagem" href="#"> <img src="Assets/Logo Starwars.png" alt="logo Star Wars"></a><!--logo-->
-
-            <div id="links__cabecalho">
-                <a class="links__header" href="#">Sobre</a>
+    <div class="grid">
+        <header class="cabecalho">
+            <div class="imagem__cabecalho">
+                <a href="#"> <img src="Assets/Logo Starwars.png" alt="logo Star Wars"></a><!--logo-->
+            </div>
+            <div class="links__cabecalho">
+                <a class="links__header" href="#">Início</a>
                 <a class="links__header" href="#">Mandalorian</a>
                 <a class="links__header" href="#">Jedi</a>
                 <a class="links__header" href="#">Sith</a>
                 <a class="links__header" href="#">Rebelde</a>
+            </div>
+
+
+            <div class="container__cabecalho-mobile">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu" class="container__label">
+                    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </label>
+
+                <ul class="lista-menu">
+
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Início</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Mandalorian</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Jedi</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Sith</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Rebeldes </a>
+                    </li>
+                </ul>
+                <a href="#"><img src="Assets/logo-mobile .webp" alt="logo Star Wars"
+                        class="container__imagem-mobile"></a>
+
+
             </div>
 
         </header>
@@ -45,7 +77,7 @@
                     sua identidade cultural.</p>
             </div>
             <div>
-                <img id="imagem2" src="Assets/Logo mandalorian.png">
+                <img id="imagem1" src="Assets/Logo mandalorian.png">
             </div>
 
         </section>
@@ -76,26 +108,28 @@
             <a class="links__header" href="#">Sith</a>
             <a class="links__header" href="#">Rebelde</a>
         </aside>
-        <footer>
-            <div class="footer-content">
 
+
+        <footer class="rodape__container">
+
+            <div>
                 <p id="texto__rodape">More From Star Wars:</p>
-                <ul class="socials">
-                    <li> <a href="https://www.facebook.com/StarWars.br/?brand_redir=169299103121699"><img
-                                src="Assets/facebook.png" alt="facebook"></a>
-                    <li><a href="https://www.instagram.com/starwars/"><img src="Assets/instagram.png"
-                                alt="instagram"></a></li>
-                    <li><a href="https://twitter.com/starwars"><img src="Assets/twitter.png" alt="twitter"></a></li>
-                    <li><a href="https://www.youtube.com/user/starwars"><img src="Assets/youtube.png" alt="youtube"></a>
-                    </li>
-                    <li><a href="https://www.starwarskids.com/"><img src="Assets/kids.png" alt=""></a></li>
-                </ul>
+            </div>
+
+            <div>
+                <a href="https://www.facebook.com/StarWars.br/?brand_redir=169299103121699"><img
+                        src="./Assets/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/starwars/"><img src="./Assets/instagram.png" alt="instagram"></a>
+                <a href="https://twitter.com/starwars"><img src="./Assets/twitter.png" alt="twitter"></a>
+                <a href="https://www.youtube.com/user/starwars"><img src="./Assets/youtube.png" alt="youtube"></a>
+                <a href="https://www.starwarskids.com/"><img src="./Assets/kids.png" alt=""></a>
             </div>
         </footer>
 
 
-        </section>
-    </div>
+
+
+
 </body>
 
 </html>
